@@ -67,9 +67,8 @@ Examples of **correct** code for this rule:
 function doSomething(condition) {
     if (condition) {
         return true;
-    } else {
-        return false;
     }
+    return false;
 }
 
 function Foo() {
